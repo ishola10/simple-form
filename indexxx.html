@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="divv.css" />
+  <script src="index.js"></script>
+</head>
+
+<body>
+  <div class="all">
+    <div class="left">
+      <h1>Welcome back</h1>
+      <h4 class="first2">welcome back! enter your details</h4>
+      <form action="">
+        <label for="email">Email</label><br />
+        <input type="text" id="email" name="email" class="email" required autocomplete="off" /><br><br>
+
+        <label for="myInput">Password</label><br>
+          <input type="password" class="password" value="FakePSW" id="myInput" name="password" required /><br>
+
+          <div style="margin-top: 1%;">
+            <label for="checkbox">Show Password</label>
+            <input id="checkbox" type="checkbox" onclick="myFunction()" />
+          </div>
+
+          <div class="days">
+            <input type="checkbox" />
+            <h3 class="first2">Remember in 30days</h3>
+            <h3 class="ttt">Forgot password</h3>
+          </div>
+          <button onclick="submitbutton()" class="button1">
+            <strong class="third">Sign in</strong></button><br />
+          <button onclick="submitbutton()" class="button2">
+            <img src="image/google.png.png" width="20px" />Sign in with Google
+          </button>
+          <h4 class="first2">
+            Don't have an account?
+            <strong class="second2">Sign up for free</strong>
+          </h4>
+      </form>
+    </div>
+  </div>
+
+  <div class="right">
+    <div class="bbb">
+      <div class="right1">
+        <h2 class="third">
+          We've been using Untitled to kick start every new project and can't
+          imagine working without it
+        </h2>
+        <div class="right2">
+          <div class="right2i">
+            <h1 class="third">Andi Lane</h1>
+            <h3 class="third">Founder catalog</h3>
+            <h4 class="first2">Web Design Agency</h4>
+          </div>
+          <div class="right2ii">
+            <img src="image/sss.png" width="20px" />
+            <img src="image/sss.png" width="20px" />
+            <img src="image/sss.png" width="20px" />
+            <img src="image/sss.png" width="20px" />
+            <img src="image/sss.png" width="20px" /><br />
+            <img class="arrow" src="image/clipart978071 (4).png" width="50px" />
+            <img class="arrow" src="image/clipart978071 (1).png" width="50px" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--<input class="password" type="password" placeholder="........">-->
+  <!--<h3>Email</h3>
+       <input  class="email" type="email" placeholder="Enter your email">-->
+</body>
+
+</html>

@@ -1,0 +1,145 @@
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(252, 197, 235);
+}
+
+.all{
+    margin-top: 150px;
+    margin-bottom: 150px;
+    margin-left: 70px;
+    height: 80vh;
+}
+
+.left{
+    padding: 10px 70px;
+    background-color: white;   
+}
+
+.first2{
+    color: rgb(148, 140, 140);
+}
+
+.email{
+    padding: 5px 10px;
+    border-style: double;
+    border-radius: 5px;
+}
+
+
+.password{
+    padding: 5px 10px;
+    border-style: double;
+    border-radius: 5px;
+}
+
+
+
+.button1{
+    padding: 8px 140px;
+    background-color: black;
+    border-radius: 7px;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.button1:hover{
+    cursor: pointer;
+    transform: translateY(-4px);
+}
+
+.third{
+    color: white;
+}
+
+.days{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ttt{
+    color: black;
+    margin-left: 50px;
+}
+
+.button2{
+    padding: 2px 95px;
+    background-color: white;
+    border-radius: 7px;
+    border-color: grey grey grey grey;
+    transition: transform 0.3s ease-in-out;
+}
+
+.button2:hover{
+    cursor: pointer;
+    transform: translateY(-4px);
+}
+
+.second2{
+    color: black;
+}
+
+.right{
+   background-image: url(image/myy.jpeg);
+   background-repeat: repeat;
+    width: 500px;
+    height: 71.8vh;
+    margin-bottom: 61px;
+    margin-top: 7px;
+}
+
+.bbb{
+    padding: 4px 30px;
+    background-color: rgba(166, 166, 212, 0.3);
+    width: 350px;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: 140px;
+    height: 45vh;
+    opacity: 0.9;
+}
+
+.right2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.right2ii{
+    margin-top: 27px;
+}
+
+.arrow{
+    margin-top: 30px;
+}
+
+
+@media screen and (max-width: 768px) {
+    body{
+        display: grid;
+        grid-template-rows: auto;
+    }
+}
+
+
+
+
+.input small {
+    display: block;
+    color: #e74c3c;
+    font-weight: bold;
+    font-size: 11px;
+    padding-top: 3px;
+    visibility: hidden;
+    }
+    .input.success input {
+    border: 2px solid #2ecc71;
+    }
+    .input.error input {
+    border: 2px solid #e74c3c;
+    }
+    .input.error small {
+    visibility: visible;
+    }
